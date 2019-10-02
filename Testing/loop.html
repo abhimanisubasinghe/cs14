@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        //While Loop
+        let count = 0;
+
+        while (count < 10) {
+            console.log(count);
+            count++;
+        }
+
+        //Do while Loop
+
+        do {
+            console.log("count value is " + count); //count value is 10
+            count++;
+        } while (count < 5);
+
+        //For Loop
+
+        for (let count = 1; count < 5; count++) {
+            console.log("for loop count is " + count);
+        }
+        //For in loop
+
+        const array = {
+            kai: 94,
+            chen: 92,
+            baek: 92
+        };
+
+        for (let x in array) {
+            console.log(x + ":" + array[x]);
+        }
+    </script>
+</body>
+
+</html>
