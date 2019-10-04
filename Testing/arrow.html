@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        //Anonymous function
+        const f1 = function() {
+            return "Hello World!";
+        }
+
+        console.log(f1());
+
+        //Arrow function
+        const f2 = () => {
+            return "Hello SuperM!";
+        }
+
+        console.log(f2());
+
+        //Arrow function with one argument
+
+        const f3 = a => {
+            return a + 1;
+        }
+
+        console.log(f3(5));
+
+        //Arrow function with one statement
+
+        const f4 = a => a * 2;
+
+        console.log(f4(9));
+    </script>
+
+    <script src="this.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        var x = 9;
+
+        console.log(y); // undefined : this is called hoisting. Does not work with 'let' keyword
+        var y = 10;
+
+        // IIFE  (Immediate Invoked Function Expression)
+
+        const val = (function() {
+            return 2 + 3;
+        })();
+
+        console.log(val);
+    </script>
+</body>
+
+</html>

@@ -1,6 +1,6 @@
 let op = 1;
 
-switch (op) {
+/*switch (op) {
 
     case 1:
         console.log("You have select Kai");
@@ -18,4 +18,9 @@ switch (op) {
         console.log("You are not a kpop fan");
 
 
-};
+};*/
+
+game: while (op == 1) {
+    console.log(op);
+    break game;
+}
